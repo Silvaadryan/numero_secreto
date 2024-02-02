@@ -27,6 +27,7 @@ p {
 
     display: flex;
     justify-content: center;
+    
     width: 900px;
     height: 700px;
     background-image: url(img/adolescente.png);
@@ -49,7 +50,8 @@ p {
     height: 50px;
     border-radius: 8px;
     border: solid 1px #7300f7d3;
-
+    font-size: 3rem;
+    
 }
 
 .bnt {
@@ -64,6 +66,7 @@ p {
 }
 
 .conteudo2 {
+   
     display: flex;
     margin-top: 5px;
     gap: 30px
@@ -72,4 +75,77 @@ p {
 .bnt:hover {
     background-color: rgb(212, 113, 20);
     ;
+}
+
+
+body,
+html {
+        height: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(255, 255, 255);
+        background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(59, 60, 60, 1) 67%);
+    }
+    
+    h1 {
+        color: rgb(212, 113, 20);
+        font-size: 4vw; /* Tamanho da fonte responsivo */
+        font-family: 'Fruktur', system-ui;
+        text-shadow: 2px 2px 2px rgb(24, 0, 243);
+    }
+    
+    p {
+        color: rgb(0, 0, 0);
+        font-size: 3vw; /* Tamanho da fonte responsivo */
+        font-family: 'Luckiest Guy', cursive;
+        text-shadow: 2px 2px 2px rgb(212, 113, 20);
+    }
+    
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 90%; /* Largura máxima responsiva */
+        height: auto; /* Altura automática */
+        background-image: url(img/adolescente.png);
+        background-size: cover;
+        background-position: center;
+        border-radius: 8px;
+        box-shadow: 0px 0px 6px 12px rgba(0, 0, 0, 0.103);
+    }
+    
+    .conteudo {
+        margin: 10% auto; /* Margem superior e horizontal responsiva */
+    }
+    
+    .caixaTexto {
+        width: 80%; /* Largura responsiva */
+        height: 40px; /* Altura fixa */
+        border-radius: 8px;
+        border: solid 1px #7300f7d3;
+        font-size: 3vw; /* Tamanho da fonte responsivo */
+    }
+    
+    .bnt {
+        width: 40%; /* Largura responsiva */
+        height: 40px; /* Altura fixa */
+        border-radius: 8px;
+        border: none;
+        background-color: rgba(212, 113, 20, 0.555);
+        box-shadow: 0px 0px 2px 2px #0000005e;
+    }
+    
+    .conteudo2 {
+        display: flex;
+        margin-top: 5px;
+        gap: 10px; /* Espaçamento entre os elementos */
+    }
+    
+    .bnt:hover {
+        background-color: rgb(212, 113, 20);
+    }
+    
+    
 }
